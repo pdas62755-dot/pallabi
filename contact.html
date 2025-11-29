@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Contact Us - 100SMILES Dental Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #87CEEB;
+            text-align: center;
+            padding: 15px 0;
+        }
+        header h1 {
+            font-family: 'Francois One', sans-serif;
+            font-weight: bold;
+            color: #000;
+            margin: 0;
+        }
+        nav {
+            background-color: #70b0f0;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        nav a {
+            display: block;
+            padding: 0.6em 1em;
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #000;
+            background-color: #e0f0ff;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        main h2 {
+            color: #1c5796;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        main p {
+            font-size: 1.05em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        main form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        main label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        main input, main textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        main textarea {
+            resize: vertical;
+        }
+        main button {
+            padding: 10px;
+            font-size: 1em;
+            background-color: #1c5796;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        main button:hover {
+            background-color: #15508b;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 769px) {
+            nav li { display: block; margin: 5px 0; }
+            header h1 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>100SMILES Dental Care</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="special.html">Special Offers</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you! Fill out the form below or use our contact details.</p>
+
+    <form action="mailto:admin@100smilesdentalcare.com.au" method="post" enctype="text/plain">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p>Email: <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a></p>
+    <p>Phone: +61 123 456 789</p>
+</main>
+
+<footer>
+    <p>&copy; 2025 100SMILES Dental Care. All Rights Reserved.</p>
+    <p><a href="index.html">Back to Home</a></p>
+</footer>
+</body>
+</html>
